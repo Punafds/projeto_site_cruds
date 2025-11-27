@@ -1,97 +1,36 @@
-# PetShop CRUD System
-
-A simple CRUD-based project developed using **PHP**, **MySQL**, **XAMPP**, and **Sublime Text**.  
-This system contains **4 CRUD modules**:  
-- Pets  
-- Clients  
-- Services  
-- Appointments  
-
-It was created as an academic exercise to learn backend, database operations, and system organization.
+# Sistema PetShop – CRUD Completo  
+Projeto desenvolvido com PHP, MySQL, XAMPP e Sublime Text.  
+O sistema contém 4 CRUDs principais: Pets, Clientes, Serviços e Agendamentos.
 
 ---
 
-## 📌 Features (English)
+# 🇧🇷 Versão em Português
 
-- CRUD for Pets
-- CRUD for Clients
-- CRUD for Services
-- CRUD for Appointments
-- Organized file structure
-- MySQL database included
-- Works locally on XAMPP
-
----
-
-## 📌 Funcionalidades (Português)
-
+## 📌 Funcionalidades
 - CRUD de Pets  
 - CRUD de Clientes  
 - CRUD de Serviços  
 - CRUD de Agendamentos  
 - Estrutura organizada em pastas  
 - Banco MySQL incluso  
-- Funciona localmente no XAMPP  
+- Funciona localmente via XAMPP  
 
 ---
 
-# How to Run the Project (English)
+## 🚀 Como Rodar o Projeto
 
-### 1. Install the required tools
-You need:
-
-- XAMPP (for Apache + MySQL)
-- Sublime Text (or any editor)
-
-### 2. Start the local server
-1. Open XAMPP  
-2. Enable:
-   - Apache
-   - MySQL
-
-### 3. Import the database
-1. Open **phpMyAdmin**  
-2. Click **Import**  
-3. Select the file:
-   ```
-   banco_petshop.sql
-   ```
-4. Click **Execute**
-
-### 4. Place the project in the correct folder
-Move the project folder to:
-
-```
-C:\xampp\htdocs\petshop\
-```
-
-### 5. Run the system
-Open in your browser:
-
-```
-http://localhost/petshop/
-```
-
-Done! The system is ready.
-
----
-
-# Como Rodar o Projeto (Português)
-
-### 1. Baixar as ferramentas necessárias
-Você precisa de:
-
-- XAMPP (Apache + MySQL)
+### 1. Requisitos
+- XAMPP (Apache + MySQL)  
 - Sublime Text (ou outro editor)
 
-### 2. Iniciar o servidor local
+### 2. Iniciar o servidor
 1. Abra o XAMPP  
 2. Ative:
    - Apache  
    - MySQL  
 
 ### 3. Importar o banco de dados
-1. Abra o **phpMyAdmin**  
+1. Vá ao **phpMyAdmin**  
 2. Clique em **Importar**  
 3. Selecione o arquivo:
    ```
@@ -100,24 +39,22 @@ Você precisa de:
 4. Clique em **Executar**
 
 ### 4. Colocar o projeto na pasta correta
-Coloque o projeto em:
+Mover o projeto para:
 
 ```
 C:\xampp\htdocs\petshop\
 ```
 
-### 5. Abrir o sistema
-No navegador digite:
+### 5. Acessar o sistema
+No navegador:
 
 ```
 http://localhost/petshop/
 ```
 
-Pronto! O sistema estará funcionando.
-
 ---
 
-# Project Structure
+## 📂 Estrutura do Projeto
 
 ```
 petshop/
@@ -152,24 +89,107 @@ petshop/
 
 ---
 
-# Future Improvements (English)
-
-- Login system  
+## 🔧 Melhorias Futuras
+- Sistema de login  
 - Dashboard  
-- Photo upload for pets  
-- User management  
-- Dark mode  
-- Responsive UI redesign  
+- Upload de fotos dos pets  
+- Gerenciamento de usuários  
+- Modo escuro  
+- Interface responsiva atualizada  
 
 ---
 
-# Melhorias Futuras (Português)
+# 🇺🇸 English Version
 
-- Sistema de login  
+## 📌 Features
+- CRUD for Pets  
+- CRUD for Clients  
+- CRUD for Services  
+- CRUD for Appointments  
+- Organized folder structure  
+- Included MySQL database  
+- Runs locally using XAMPP  
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Requirements
+- XAMPP (Apache + MySQL)  
+- Sublime Text (or any editor)
+
+### 2. Start the local server
+1. Open XAMPP  
+2. Enable:
+   - Apache  
+   - MySQL  
+
+### 3. Import the database
+1. Go to **phpMyAdmin**  
+2. Click **Import**  
+3. Choose:
+   ```
+   banco_petshop.sql
+   ```
+4. Press **Execute**
+
+### 4. Move project to the correct folder
+Place it inside:
+
+```
+C:\xampp\htdocs\petshop\
+```
+
+### 5. Run the system
+Open your browser and enter:
+
+```
+http://localhost/petshop/
+```
+
+---
+
+## 📂 Project Structure
+
+```
+petshop/
+│
+├── conexao.php
+├── index.php
+│
+├── pets/
+│   ├── create.php
+│   ├── edit.php
+│   ├── delete.php
+│   ├── list.php
+│
+├── clients/
+│   ├── create.php
+│   ├── edit.php
+│   ├── delete.php
+│   ├── list.php
+│
+├── services/
+│   ├── create.php
+│   ├── edit.php
+│   ├── delete.php
+│   ├── list.php
+│
+└── appointments/
+    ├── create.php
+    ├── edit.php
+    ├── delete.php
+    ├── list.php
+```
+
+---
+
+## 🔧 Future Improvements
+- Login system  
 - Dashboard  
-- Upload de foto dos pets  
-- Gerenciamento de usuários  
-- Modo escuro  
-- Interface mais responsiva  
+- Pet photo upload  
+- User management  
+- Dark mode  
+- Responsive UI redesign  
 
 ---
